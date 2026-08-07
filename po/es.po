@@ -1,0 +1,721 @@
+# Spanish translations for Codex Plasma package
+# Traducciones al español para el paquete Codex Plasma.
+# Copyright (C) 2026 Codex Plasma Center contributors
+# This file is distributed under the same license as the Codex Plasma Center package.
+# Codex Plasma Center contributors, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Codex Plasma Center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-07 23:54+0200\n"
+"PO-Revision-Date: 2026-08-07 19:36+0200\n"
+"Last-Translator: Codex Plasma Center contributors\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: package/contents/config/config.qml:12
+msgid "General"
+msgstr "General"
+
+#: package/contents/ui/configGeneral.qml:34
+msgid "Refresh interval:"
+msgstr "Intervalo de actualización:"
+
+#: package/contents/ui/configGeneral.qml:39
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 minuto"
+msgstr[1] "%1 minutos"
+
+#: package/contents/ui/configGeneral.qml:49
+msgid "Panel:"
+msgstr "Panel:"
+
+#: package/contents/ui/configGeneral.qml:50
+msgid "Show remaining percentage"
+msgstr "Mostrar porcentaje restante"
+
+#: package/contents/ui/configGeneral.qml:55
+msgid "The widget does not store account usage or display the account email."
+msgstr "El widget no almacena el uso de la cuenta ni muestra su correo."
+
+#: package/contents/ui/main.qml:90
+#, javascript-format
+msgid "%1%"
+msgstr "%1%"
+
+#: package/contents/ui/main.qml:112
+msgid "Sign-in required"
+msgstr "Inicio de sesión necesario"
+
+#: package/contents/ui/main.qml:115
+msgid "%1 plan"
+msgstr "Plan %1"
+
+#: package/contents/ui/main.qml:117
+msgid "Authenticated"
+msgstr "Sesión iniciada"
+
+#: package/contents/ui/main.qml:120 package/contents/ui/main.qml:321
+msgid "Updated %1"
+msgstr "Actualizado el %1"
+
+#: package/contents/ui/main.qml:121
+msgid "Not updated yet"
+msgstr "Aún sin actualizar"
+
+#: package/contents/ui/main.qml:142
+msgid "Reset time unavailable"
+msgstr "Hora de reinicio no disponible"
+
+#: package/contents/ui/main.qml:144
+msgid "Resets at %1"
+msgstr "Reinicio: %1"
+
+#: package/contents/ui/main.qml:151
+msgid "Session"
+msgstr "Sesión"
+
+#: package/contents/ui/main.qml:154
+msgid "Weekly"
+msgstr "Semanal"
+
+#: package/contents/ui/main.qml:157
+msgid "Monthly"
+msgstr "Mensual"
+
+#: package/contents/ui/main.qml:160
+msgid "%1-day window"
+msgid_plural "%1-day window"
+msgstr[0] "Ventana de %1 día"
+msgstr[1] "Ventana de %1 días"
+
+#: package/contents/ui/main.qml:163
+msgid "%1-hour window"
+msgid_plural "%1-hour window"
+msgstr[0] "Ventana de %1 hora"
+msgstr[1] "Ventana de %1 horas"
+
+#: package/contents/ui/main.qml:165
+msgid "Usage window %1"
+msgstr "Ventana de uso %1"
+
+#: package/contents/ui/main.qml:177 package/contents/ui/main.qml:186
+msgid "%1 · limit %2"
+msgstr "%1 · límite %2"
+
+#: package/contents/ui/main.qml:198 package/contents/ui/main.qml:217
+#: package/contents/ui/main.qml:257 package/contents/ui/main.qml:276
+msgid "Codex CLI was not found in the Plasma environment."
+msgstr "No se encontró la CLI de Codex en el entorno de Plasma."
+
+#: package/contents/ui/main.qml:201 package/contents/ui/main.qml:220
+#: package/contents/ui/main.qml:262 package/contents/ui/main.qml:287
+msgid "Codex app-server could not be started."
+msgstr "No se pudo iniciar el app-server de Codex."
+
+#: package/contents/ui/main.qml:204 package/contents/ui/main.qml:223
+msgid "This Codex version is not compatible with the widget."
+msgstr "Esta versión de Codex no es compatible con el widget."
+
+#: package/contents/ui/main.qml:206 package/contents/ui/main.qml:225
+#: package/contents/ui/main.qml:289
+msgid "Codex did not answer before the request timed out."
+msgstr "Codex no respondió antes de agotarse el tiempo de espera."
+
+#: package/contents/ui/main.qml:208
+msgid "Codex account status is currently unavailable."
+msgstr "El estado de la cuenta de Codex no está disponible ahora mismo."
+
+#: package/contents/ui/main.qml:210
+msgid "Codex status could not be read."
+msgstr "No se pudo consultar el estado de Codex."
+
+#: package/contents/ui/main.qml:227
+msgid "Codex chats are currently unavailable."
+msgstr "Los chats de Codex no están disponibles ahora mismo."
+
+#: package/contents/ui/main.qml:229
+msgid "Enter a non-empty name of up to 120 characters."
+msgstr "Introduce un nombre no vacío de hasta 120 caracteres."
+
+#: package/contents/ui/main.qml:232
+msgid "The selected chat could not be validated."
+msgstr "No se pudo validar el chat seleccionado."
+
+#: package/contents/ui/main.qml:234
+msgid "The chat could not be renamed."
+msgstr "No se pudo cambiar el nombre del chat."
+
+#: package/contents/ui/main.qml:236
+msgid "The chat could not be deleted."
+msgstr "No se pudo eliminar el chat."
+
+#: package/contents/ui/main.qml:238
+msgid "The archived chats could not be collected safely. Nothing was deleted."
+msgstr ""
+"No se pudieron recopilar los chats archivados de forma segura. No se eliminó "
+"nada."
+
+#: package/contents/ui/main.qml:240
+msgid "More than 1,000 archived chats were found. Nothing was deleted."
+msgstr "Se encontraron más de 1.000 chats archivados. No se eliminó nada."
+
+#: package/contents/ui/main.qml:242
+msgid ""
+"Codex stopped during bulk deletion. Some archived chats may already have "
+"been deleted; refresh the list before trying again."
+msgstr ""
+"Codex se detuvo durante el borrado masivo. Es posible que algunos chats "
+"archivados ya se hayan eliminado; actualiza la lista antes de intentarlo de "
+"nuevo."
+
+#: package/contents/ui/main.qml:244 package/contents/ui/main.qml:278
+msgid "No supported terminal emulator was found."
+msgstr "No se encontró ningún emulador de terminal compatible."
+
+#: package/contents/ui/main.qml:246 package/contents/ui/main.qml:280
+msgid "The selected terminal is not supported."
+msgstr "La terminal seleccionada no es compatible."
+
+#: package/contents/ui/main.qml:248
+msgid "The chat could not be opened in a terminal."
+msgstr "No se pudo abrir el chat en una terminal."
+
+#: package/contents/ui/main.qml:250
+msgid "The chat operation could not be completed."
+msgstr "No se pudo completar la operación del chat."
+
+#: package/contents/ui/main.qml:259
+msgid "Limit reset is not available with this Codex version or account."
+msgstr ""
+"El reinicio del límite no está disponible con esta versión de Codex o esta "
+"cuenta."
+
+#: package/contents/ui/main.qml:264
+msgid ""
+"Codex did not answer before the request timed out. Retry keeps the same "
+"reset attempt while this widget remains open."
+msgstr ""
+"Codex no respondió antes de agotarse el tiempo de espera. Si reintentas "
+"mientras el widget siga abierto, se conservará el mismo intento de reinicio."
+
+#: package/contents/ui/main.qml:267
+msgid "The reset request could not be validated safely."
+msgstr "No se pudo validar de forma segura la solicitud de reinicio."
+
+#: package/contents/ui/main.qml:269
+msgid "The limit reset could not be completed."
+msgstr "No se pudo completar el reinicio del límite."
+
+#: package/contents/ui/main.qml:282
+msgid "Codex models are currently unavailable."
+msgstr "Los modelos de Codex no están disponibles ahora mismo."
+
+#: package/contents/ui/main.qml:284
+msgid "A new Codex CLI could not be opened in a terminal."
+msgstr "No se pudo abrir una nueva CLI de Codex en una terminal."
+
+#: package/contents/ui/main.qml:291
+msgid "The selected working folder is no longer available."
+msgstr "La carpeta de trabajo seleccionada ya no está disponible."
+
+#: package/contents/ui/main.qml:294
+msgid "The selected launch options could not be validated."
+msgstr "No se pudieron validar las opciones de inicio seleccionadas."
+
+#: package/contents/ui/main.qml:296
+msgid "Codex launch options could not be loaded."
+msgstr "No se pudieron cargar las opciones de inicio de Codex."
+
+#: package/contents/ui/main.qml:302
+msgid "Archived"
+msgstr "Archivado"
+
+#: package/contents/ui/main.qml:306
+msgid "Active"
+msgstr "Activo"
+
+#: package/contents/ui/main.qml:308
+msgid "Idle"
+msgstr "Inactivo"
+
+#: package/contents/ui/main.qml:310
+msgid "Error"
+msgstr "Error"
+
+#: package/contents/ui/main.qml:312
+msgid "Saved"
+msgstr "Guardado"
+
+#: package/contents/ui/main.qml:314
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: package/contents/ui/main.qml:323
+msgid "Update time unavailable"
+msgstr "Hora de actualización no disponible"
+
+#: package/contents/ui/main.qml:537
+msgid "Chat renamed."
+msgstr "Nombre del chat actualizado."
+
+#: package/contents/ui/main.qml:547
+msgid "Chat restored and opened in a separate terminal window."
+msgstr "Chat restaurado y abierto en una ventana de terminal independiente."
+
+#: package/contents/ui/main.qml:550
+msgid "Chat opened in a separate terminal window."
+msgstr "Chat abierto en una ventana de terminal independiente."
+
+#: package/contents/ui/main.qml:557
+msgid "Chat permanently deleted."
+msgstr "Chat eliminado permanentemente."
+
+#: package/contents/ui/main.qml:566
+msgid "%1 archived chat permanently deleted."
+msgid_plural "%1 archived chats permanently deleted."
+msgstr[0] "%1 chat archivado eliminado permanentemente."
+msgstr[1] "%1 chats archivados eliminados permanentemente."
+
+#: package/contents/ui/main.qml:568
+msgid "No archived chats were found."
+msgstr "No se encontraron chats archivados."
+
+#: package/contents/ui/main.qml:623
+msgid "Usage limits were reset."
+msgstr "Se han reiniciado los límites de uso."
+
+#: package/contents/ui/main.qml:625
+msgid "No current usage limit needs a reset."
+msgstr "Ningún límite de uso actual necesita reiniciarse."
+
+#: package/contents/ui/main.qml:627
+msgid "No limit reset is currently available."
+msgstr "No hay ningún reinicio de límite disponible ahora mismo."
+
+#: package/contents/ui/main.qml:629
+msgid "This reset attempt was already completed."
+msgstr "Este intento de reinicio ya se había completado."
+
+#: package/contents/ui/main.qml:659
+msgid "A new Codex CLI opened in a terminal."
+msgstr "Se ha abierto una nueva CLI de Codex en una terminal."
+
+#: package/contents/ui/main.qml:680 package/contents/ui/main.qml:1044
+msgid "Unavailable"
+msgstr "No disponible"
+
+#: package/contents/ui/main.qml:800
+msgid "Use a limit reset?"
+msgstr "¿Usar un reinicio de límite?"
+
+#: package/contents/ui/main.qml:806 package/contents/ui/ChatsView.qml:101
+#: package/contents/ui/LauncherView.qml:129
+msgid "Continue"
+msgstr "Continuar"
+
+#: package/contents/ui/main.qml:813
+msgid ""
+"One available reset will be used to reset every eligible Codex usage window."
+msgstr ""
+"Se usará uno de los reinicios disponibles para reiniciar todas las ventanas "
+"de uso de Codex que cumplan los requisitos."
+
+#: package/contents/ui/main.qml:825 package/contents/ui/ChatsView.qml:120
+#: package/contents/ui/LauncherView.qml:148
+msgid "Final confirmation"
+msgstr "Confirmación final"
+
+#: package/contents/ui/main.qml:831
+msgid "Use reset now"
+msgstr "Usar reinicio ahora"
+
+#: package/contents/ui/main.qml:838
+msgid "Use one limit reset now? This action cannot be undone."
+msgstr "¿Usar ahora un reinicio de límite? Esta acción no se puede deshacer."
+
+#: package/contents/ui/main.qml:880
+msgid "Refreshing Codex status…"
+msgstr "Actualizando el estado de Codex…"
+
+#: package/contents/ui/main.qml:884
+#, javascript-format
+msgid "Codex · %1% remaining"
+msgstr "Codex · %1% restante"
+
+#: package/contents/ui/main.qml:885
+msgid "Codex · %1"
+msgstr "Codex · %1"
+
+#: package/contents/ui/main.qml:931
+msgid "Codex Plasma Center"
+msgstr "Centro de Codex para Plasma"
+
+#: package/contents/ui/main.qml:938
+msgid "%1 · Addon %2"
+msgstr "%1 · Addon %2"
+
+#: package/contents/ui/main.qml:955
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: package/contents/ui/main.qml:978
+msgid "Status"
+msgstr "Estado"
+
+#: package/contents/ui/main.qml:982
+msgid "New chat"
+msgstr "Nuevo chat"
+
+#: package/contents/ui/main.qml:986
+msgid "History"
+msgstr "Historial"
+
+#: package/contents/ui/main.qml:1000
+msgid "Open Codex in a terminal and sign in before checking account usage."
+msgstr ""
+"Abre Codex en una terminal e inicia sesión antes de consultar el uso de la "
+"cuenta."
+
+#: package/contents/ui/main.qml:1012
+msgid "Usage limits"
+msgstr "Límites de uso"
+
+#: package/contents/ui/main.qml:1019
+msgid "Usage windows are not available for this authentication mode."
+msgstr ""
+"Las ventanas de uso no están disponibles con este modo de autenticación."
+
+#: package/contents/ui/main.qml:1045
+#, javascript-format
+msgid "%1% remaining"
+msgstr "%1% restante"
+
+#: package/contents/ui/main.qml:1075
+msgid "%1 limit reset available"
+msgid_plural "%1 limit resets available"
+msgstr[0] "%1 reinicio de límite disponible"
+msgstr[1] "%1 reinicios de límite disponibles"
+
+#: package/contents/ui/main.qml:1083
+msgid "Use reset"
+msgstr "Usar reinicio"
+
+#: package/contents/ui/main.qml:1118
+msgid "Token activity"
+msgstr "Actividad de tokens"
+
+#: package/contents/ui/main.qml:1131
+msgid "Lifetime tokens"
+msgstr "Tokens totales"
+
+#: package/contents/ui/main.qml:1143
+msgid "Peak daily tokens"
+msgstr "Máximo diario de tokens"
+
+#: package/contents/ui/main.qml:1155
+msgid "Current streak"
+msgstr "Racha actual"
+
+#: package/contents/ui/main.qml:1160
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 día"
+msgstr[1] "%1 días"
+
+#: package/contents/ui/main.qml:1212
+msgid "Codex %1"
+msgstr "Codex %1"
+
+#: package/contents/ui/ChatsView.qml:36 package/contents/ui/ChatsView.qml:284
+msgid "Untitled chat"
+msgstr "Chat sin título"
+
+#: package/contents/ui/ChatsView.qml:52
+msgid "Delete archived chat?"
+msgstr "¿Eliminar el chat archivado?"
+
+#: package/contents/ui/ChatsView.qml:53
+msgid "Delete active chat?"
+msgstr "¿Eliminar el chat activo?"
+
+#: package/contents/ui/ChatsView.qml:59
+msgid "Delete permanently"
+msgstr "Eliminar permanentemente"
+
+#: package/contents/ui/ChatsView.qml:79
+msgid ""
+"The archived chat “%1” will be permanently deleted. Any chats created from "
+"it may also be deleted. This cannot be undone."
+msgstr ""
+"El chat archivado «%1» se eliminará permanentemente. También podrían "
+"eliminarse los chats creados a partir de él. Esta acción no se puede "
+"deshacer."
+
+#: package/contents/ui/ChatsView.qml:81
+msgid ""
+"The active chat “%1” will be permanently deleted. Any chats created from it "
+"may also be deleted. This cannot be undone."
+msgstr ""
+"El chat activo «%1» se eliminará permanentemente. También podrían eliminarse "
+"los chats creados a partir de él. Esta acción no se puede deshacer."
+
+#: package/contents/ui/ChatsView.qml:95
+msgid "Delete all archived chats?"
+msgstr "¿Eliminar todos los chats archivados?"
+
+#: package/contents/ui/ChatsView.qml:108
+msgid ""
+"Every archived chat will be permanently deleted. Descendant chats may also "
+"be deleted. If Codex fails during the operation, some deletions may already "
+"have completed."
+msgstr ""
+"Todos los chats archivados se eliminarán permanentemente. También podrían "
+"eliminarse chats descendientes. Si Codex falla durante la operación, es "
+"posible que algunos borrados ya se hayan completado."
+
+#: package/contents/ui/ChatsView.qml:126
+msgid "Delete all archived"
+msgstr "Eliminar todos los archivados"
+
+#: package/contents/ui/ChatsView.qml:133
+msgid ""
+"This is the final confirmation. Permanently delete all archived chats now?"
+msgstr ""
+"Esta es la confirmación final. ¿Eliminar permanentemente todos los chats "
+"archivados ahora?"
+
+#: package/contents/ui/ChatsView.qml:150
+msgid "Search chat titles"
+msgstr "Buscar títulos de chats"
+
+#: package/contents/ui/ChatsView.qml:158
+msgid "Search"
+msgstr "Buscar"
+
+#: package/contents/ui/ChatsView.qml:169
+msgid "Refresh chats"
+msgstr "Actualizar chats"
+
+#: package/contents/ui/ChatsView.qml:181
+msgid "Delete all archived chats"
+msgstr "Eliminar todos los chats archivados"
+
+#: package/contents/ui/ChatsView.qml:218
+msgid "No saved chats were found."
+msgstr "No se encontraron chats guardados."
+
+#: package/contents/ui/ChatsView.qml:219
+msgid "No chats match this search."
+msgstr "Ningún chat coincide con esta búsqueda."
+
+#: package/contents/ui/ChatsView.qml:262
+msgid "Archived chats"
+msgstr "Chats archivados"
+
+#: package/contents/ui/ChatsView.qml:263
+msgid "Active chats"
+msgstr "Chats activos"
+
+#: package/contents/ui/ChatsView.qml:291
+msgid "%1 · %2"
+msgstr "%1 · %2"
+
+#: package/contents/ui/ChatsView.qml:306
+msgid "Rename"
+msgstr "Cambiar nombre"
+
+#: package/contents/ui/ChatsView.qml:323
+msgid "Delete archived chat"
+msgstr "Eliminar chat archivado"
+
+#: package/contents/ui/ChatsView.qml:324
+msgid "Delete active chat"
+msgstr "Eliminar chat activo"
+
+#: package/contents/ui/ChatsView.qml:337
+msgid "Restore and open in terminal"
+msgstr "Restaurar y abrir en terminal"
+
+#: package/contents/ui/ChatsView.qml:338
+msgid "Open in terminal"
+msgstr "Abrir en terminal"
+
+#: package/contents/ui/ChatsView.qml:359
+msgid "Chat name"
+msgstr "Nombre del chat"
+
+#: package/contents/ui/ChatsView.qml:366
+msgid "Save"
+msgstr "Guardar"
+
+#: package/contents/ui/ChatsView.qml:377
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: package/contents/ui/ChatsView.qml:399
+msgid "Load more"
+msgstr "Cargar más"
+
+#: package/contents/ui/ChatsView.qml:408
+msgid "%1 chat loaded"
+msgid_plural "%1 chats loaded"
+msgstr[0] "%1 chat cargado"
+msgstr[1] "%1 chats cargados"
+
+#: package/contents/ui/LauncherView.qml:23
+msgid "Home folder (default)"
+msgstr "Carpeta personal (predeterminada)"
+
+#: package/contents/ui/LauncherView.qml:28
+msgid "Use Codex default"
+msgstr "Usar valor predeterminado de Codex"
+
+#: package/contents/ui/LauncherView.qml:34
+msgid "%1 (default)"
+msgstr "%1 (predeterminado)"
+
+#: package/contents/ui/LauncherView.qml:45
+msgid "Use configured/model default"
+msgstr "Usar valor configurado/del modelo"
+
+#: package/contents/ui/LauncherView.qml:51
+#: package/contents/ui/LauncherView.qml:61
+msgid "Inherit Codex configuration"
+msgstr "Heredar configuración de Codex"
+
+#: package/contents/ui/LauncherView.qml:52
+msgid "Read only"
+msgstr "Solo lectura"
+
+#: package/contents/ui/LauncherView.qml:53
+msgid "Workspace write"
+msgstr "Escritura en el espacio de trabajo"
+
+#: package/contents/ui/LauncherView.qml:54
+msgid "Full access"
+msgstr "Acceso completo"
+
+#: package/contents/ui/LauncherView.qml:56
+msgid "Bypass all protections"
+msgstr "Omitir todas las protecciones"
+
+#: package/contents/ui/LauncherView.qml:62
+msgid "Untrusted commands"
+msgstr "Comandos no confiables"
+
+#: package/contents/ui/LauncherView.qml:63
+msgid "When requested"
+msgstr "Cuando se solicite"
+
+#: package/contents/ui/LauncherView.qml:64
+msgid "Never ask"
+msgstr "No preguntar nunca"
+
+#: package/contents/ui/LauncherView.qml:67
+msgid "Automatically detect"
+msgstr "Detectar automáticamente"
+
+#: package/contents/ui/LauncherView.qml:113
+msgid "Choose working folder"
+msgstr "Elegir carpeta de trabajo"
+
+#: package/contents/ui/LauncherView.qml:123
+msgid "Bypass every protection?"
+msgstr "¿Omitir todas las protecciones?"
+
+#: package/contents/ui/LauncherView.qml:136
+msgid ""
+"The new CLI will run without a sandbox and will never ask for command "
+"approval. It can modify any data available to your user account."
+msgstr ""
+"La nueva CLI se ejecutará sin aislamiento y nunca pedirá aprobación para los "
+"comandos. Podrá modificar cualquier dato disponible para tu cuenta de "
+"usuario."
+
+#: package/contents/ui/LauncherView.qml:154
+msgid "Open without protections"
+msgstr "Abrir sin protecciones"
+
+#: package/contents/ui/LauncherView.qml:161
+msgid "Open this Codex CLI with all sandboxing and approval prompts disabled?"
+msgstr "¿Abrir esta CLI de Codex sin aislamiento ni solicitudes de aprobación?"
+
+#: package/contents/ui/LauncherView.qml:171
+msgid "New Codex chat"
+msgstr "Nuevo chat de Codex"
+
+#: package/contents/ui/LauncherView.qml:185
+msgid "Reload launch options"
+msgstr "Recargar opciones de inicio"
+
+#: package/contents/ui/LauncherView.qml:217
+msgid "Model"
+msgstr "Modelo"
+
+#: package/contents/ui/LauncherView.qml:232
+msgid "Reasoning"
+msgstr "Razonamiento"
+
+#: package/contents/ui/LauncherView.qml:246
+msgid "Access"
+msgstr "Acceso"
+
+#: package/contents/ui/LauncherView.qml:266
+msgid "Approvals"
+msgstr "Aprobaciones"
+
+#: package/contents/ui/LauncherView.qml:282
+msgid "Working folder"
+msgstr "Carpeta de trabajo"
+
+#: package/contents/ui/LauncherView.qml:300
+msgid "Choose…"
+msgstr "Elegir…"
+
+#: package/contents/ui/LauncherView.qml:308
+msgid "Use home folder"
+msgstr "Usar carpeta personal"
+
+#: package/contents/ui/LauncherView.qml:320
+msgid "Terminal"
+msgstr "Terminal"
+
+#: package/contents/ui/LauncherView.qml:337
+msgid ""
+"These are official Codex CLI options and do not depend on your shell. "
+"Inherit leaves that setting unchanged. If no working folder is selected, the "
+"new CLI opens in your home folder."
+msgstr ""
+"Estas son opciones oficiales de la CLI de Codex y no dependen de tu shell. "
+"Heredar deja ese ajuste sin cambios. Si no se selecciona una carpeta de "
+"trabajo, la nueva CLI se abre en tu carpeta personal."
+
+#: package/contents/ui/LauncherView.qml:351
+msgid ""
+"This mode disables both sandboxing and approval prompts. Opening it requires "
+"two confirmations."
+msgstr ""
+"Este modo desactiva tanto el aislamiento como las solicitudes de aprobación. "
+"Para abrirlo hacen falta dos confirmaciones."
+
+#: package/contents/ui/LauncherView.qml:352
+msgid ""
+"This selection reduces protections for the new CLI session. Use it only when "
+"you understand the impact."
+msgstr ""
+"Esta selección reduce las protecciones de la nueva sesión de la CLI. Úsala "
+"solo si comprendes sus consecuencias."
+
+#: package/contents/ui/LauncherView.qml:358
+msgid "Open new chat in terminal"
+msgstr "Abrir un nuevo chat en terminal"
+
+#~ msgid "Konsole was not found."
+#~ msgstr "No se encontró Konsole."

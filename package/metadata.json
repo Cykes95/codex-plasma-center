@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Codex Plasma Center contributors"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Check Codex usage and manage saved chats",
+        "Description[es]": "Consulta el uso de Codex y gestiona chats guardados",
+        "EnabledByDefault": true,
+        "Icon": "applications-development",
+        "Id": "com.github.codexplasmacenter",
+        "License": "MIT",
+        "Name": "Codex Plasma Center",
+        "Name[es]": "Centro de Codex para Plasma",
+    "Version": "0.7.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
