@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Codex Plasma Center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-09 04:22+0200\n"
+"POT-Creation-Date: 2026-08-09 04:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Codex Plasma Center contributors\n"
 "Language-Team: translators\n"
@@ -42,6 +42,280 @@ msgstr ""
 
 #: package/contents/ui/configGeneral.qml:55
 msgid "The widget does not store account usage or display the account email."
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:36 package/contents/ui/ChatsView.qml:284
+msgid "Untitled chat"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:52
+msgid "Delete archived chat?"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:53
+msgid "Delete active chat?"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:59
+msgid "Delete permanently"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:79
+msgid ""
+"The archived chat “%1” will be permanently deleted. Any chats created from "
+"it may also be deleted. This cannot be undone."
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:81
+msgid ""
+"The active chat “%1” will be permanently deleted. Any chats created from it "
+"may also be deleted. This cannot be undone."
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:95
+msgid "Delete all archived chats?"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:101
+#: package/contents/ui/LauncherView.qml:129 package/contents/ui/main.qml:811
+msgid "Continue"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:108
+msgid ""
+"Every archived chat will be permanently deleted. Descendant chats may also "
+"be deleted. If Codex fails during the operation, some deletions may already "
+"have completed."
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:120
+#: package/contents/ui/LauncherView.qml:148 package/contents/ui/main.qml:830
+msgid "Final confirmation"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:126
+msgid "Delete all archived"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:133
+msgid ""
+"This is the final confirmation. Permanently delete all archived chats now?"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:150
+msgid "Search chat titles"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:158
+msgid "Search"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:169
+msgid "Refresh chats"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:181
+msgid "Delete all archived chats"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:218
+msgid "No saved chats were found."
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:219
+msgid "No chats match this search."
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:262
+msgid "Archived chats"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:263
+msgid "Active chats"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:291
+msgid "%1 · %2"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:306
+msgid "Rename"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:323
+msgid "Delete archived chat"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:324
+msgid "Delete active chat"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:337
+msgid "Restore and open in terminal"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:338
+msgid "Open in terminal"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:359
+msgid "Chat name"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:366
+msgid "Save"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:377
+msgid "Cancel"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:399
+msgid "Load more"
+msgstr ""
+
+#: package/contents/ui/ChatsView.qml:408
+msgid "%1 chat loaded"
+msgid_plural "%1 chats loaded"
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/LauncherView.qml:23
+msgid "Home folder (default)"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:28
+msgid "Use Codex default"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:34
+msgid "%1 (default)"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:45
+msgid "Use configured/model default"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:51
+#: package/contents/ui/LauncherView.qml:61
+msgid "Inherit Codex configuration"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:52
+msgid "Read only"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:53
+msgid "Workspace write"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:54
+msgid "Full access"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:56
+msgid "Bypass all protections"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:62
+msgid "Untrusted commands"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:63
+msgid "When requested"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:64
+msgid "Never ask"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:67
+msgid "Automatically detect"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:113
+msgid "Choose working folder"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:123
+msgid "Bypass every protection?"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:136
+msgid ""
+"The new CLI will run without a sandbox and will never ask for command "
+"approval. It can modify any data available to your user account."
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:154
+msgid "Open without protections"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:161
+msgid "Open this Codex CLI with all sandboxing and approval prompts disabled?"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:171
+msgid "New Codex chat"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:185
+msgid "Reload launch options"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:230
+msgid "Model"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:245
+msgid "Reasoning"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:259
+msgid "Access"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:279
+msgid "Approvals"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:295
+msgid "Working folder"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:313
+msgid "Choose…"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:321
+msgid "Use home folder"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:333
+msgid "Terminal"
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:350
+msgid ""
+"These are official Codex CLI options and do not depend on your shell. "
+"Inherit leaves that setting unchanged. If no working folder is selected, the "
+"new CLI opens in your home folder."
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:366
+msgid ""
+"This mode disables both sandboxing and approval prompts. Opening it requires "
+"two confirmations."
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:367
+msgid ""
+"This selection reduces protections for the new CLI session. Use it only when "
+"you understand the impact."
+msgstr ""
+
+#: package/contents/ui/LauncherView.qml:373
+msgid "Open new chat in terminal"
 msgstr ""
 
 #: package/contents/ui/main.qml:95
@@ -306,19 +580,9 @@ msgstr ""
 msgid "Use a limit reset?"
 msgstr ""
 
-#: package/contents/ui/main.qml:811 package/contents/ui/ChatsView.qml:101
-#: package/contents/ui/LauncherView.qml:129
-msgid "Continue"
-msgstr ""
-
 #: package/contents/ui/main.qml:818
 msgid ""
 "One available reset will be used to reset every eligible Codex usage window."
-msgstr ""
-
-#: package/contents/ui/main.qml:830 package/contents/ui/ChatsView.qml:120
-#: package/contents/ui/LauncherView.qml:148
-msgid "Final confirmation"
 msgstr ""
 
 #: package/contents/ui/main.qml:836
@@ -417,268 +681,4 @@ msgstr[1] ""
 
 #: package/contents/ui/main.qml:1218
 msgid "Codex %1"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:36 package/contents/ui/ChatsView.qml:284
-msgid "Untitled chat"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:52
-msgid "Delete archived chat?"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:53
-msgid "Delete active chat?"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:59
-msgid "Delete permanently"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:79
-msgid ""
-"The archived chat “%1” will be permanently deleted. Any chats created from "
-"it may also be deleted. This cannot be undone."
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:81
-msgid ""
-"The active chat “%1” will be permanently deleted. Any chats created from it "
-"may also be deleted. This cannot be undone."
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:95
-msgid "Delete all archived chats?"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:108
-msgid ""
-"Every archived chat will be permanently deleted. Descendant chats may also "
-"be deleted. If Codex fails during the operation, some deletions may already "
-"have completed."
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:126
-msgid "Delete all archived"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:133
-msgid ""
-"This is the final confirmation. Permanently delete all archived chats now?"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:150
-msgid "Search chat titles"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:158
-msgid "Search"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:169
-msgid "Refresh chats"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:181
-msgid "Delete all archived chats"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:218
-msgid "No saved chats were found."
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:219
-msgid "No chats match this search."
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:262
-msgid "Archived chats"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:263
-msgid "Active chats"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:291
-msgid "%1 · %2"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:306
-msgid "Rename"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:323
-msgid "Delete archived chat"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:324
-msgid "Delete active chat"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:337
-msgid "Restore and open in terminal"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:338
-msgid "Open in terminal"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:359
-msgid "Chat name"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:366
-msgid "Save"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:377
-msgid "Cancel"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:399
-msgid "Load more"
-msgstr ""
-
-#: package/contents/ui/ChatsView.qml:408
-msgid "%1 chat loaded"
-msgid_plural "%1 chats loaded"
-msgstr[0] ""
-msgstr[1] ""
-
-#: package/contents/ui/LauncherView.qml:23
-msgid "Home folder (default)"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:28
-msgid "Use Codex default"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:34
-msgid "%1 (default)"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:45
-msgid "Use configured/model default"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:51
-#: package/contents/ui/LauncherView.qml:61
-msgid "Inherit Codex configuration"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:52
-msgid "Read only"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:53
-msgid "Workspace write"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:54
-msgid "Full access"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:56
-msgid "Bypass all protections"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:62
-msgid "Untrusted commands"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:63
-msgid "When requested"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:64
-msgid "Never ask"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:67
-msgid "Automatically detect"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:113
-msgid "Choose working folder"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:123
-msgid "Bypass every protection?"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:136
-msgid ""
-"The new CLI will run without a sandbox and will never ask for command "
-"approval. It can modify any data available to your user account."
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:154
-msgid "Open without protections"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:161
-msgid "Open this Codex CLI with all sandboxing and approval prompts disabled?"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:171
-msgid "New Codex chat"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:185
-msgid "Reload launch options"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:230
-msgid "Model"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:245
-msgid "Reasoning"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:259
-msgid "Access"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:279
-msgid "Approvals"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:295
-msgid "Working folder"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:313
-msgid "Choose…"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:321
-msgid "Use home folder"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:333
-msgid "Terminal"
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:350
-msgid ""
-"These are official Codex CLI options and do not depend on your shell. "
-"Inherit leaves that setting unchanged. If no working folder is selected, the "
-"new CLI opens in your home folder."
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:366
-msgid ""
-"This mode disables both sandboxing and approval prompts. Opening it requires "
-"two confirmations."
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:367
-msgid ""
-"This selection reduces protections for the new CLI session. Use it only when "
-"you understand the impact."
-msgstr ""
-
-#: package/contents/ui/LauncherView.qml:373
-msgid "Open new chat in terminal"
 msgstr ""
