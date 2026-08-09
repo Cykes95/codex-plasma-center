@@ -10,8 +10,8 @@ OpenAI property, is not covered by this project's MIT license, and does not
 imply affiliation or endorsement. See [TRADEMARKS.md](TRADEMARKS.md).
 
 > [!NOTE]
-> The project is in early development. Version 0.7.0 is the first public
-> pre-release.
+> The project is in early development. Version 0.7.1 is the current public
+> pre-release; version 0.7.0 was the first.
 
 <p align="center">
   <img src="docs/screenshot-en.png"
@@ -121,12 +121,12 @@ zero usage.
 
 ## Install
 
-Download `codex-plasma-center-0.7.0.plasmoid` from the
-[GitHub Releases page](https://github.com/Cykes95/codex-plasma-center/releases/latest),
+Download `codex-plasma-center-0.7.1.plasmoid` from the
+[GitHub Release](https://github.com/Cykes95/codex-plasma-center/releases/tag/v0.7.1),
 then install it for the current user:
 
 ```sh
-kpackagetool6 --type Plasma/Applet --install codex-plasma-center-0.7.0.plasmoid
+kpackagetool6 --type Plasma/Applet --install codex-plasma-center-0.7.1.plasmoid
 ```
 
 To install from a source checkout instead:

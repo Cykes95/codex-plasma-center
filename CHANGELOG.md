@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The project uses semantic versioning once a public release is created.
 
-## 0.7.1 - Unreleased
+## 0.7.1 - 2026-08-09
 
 - Suppress Plasma's generic metadata tooltip so the compact status tooltip is
   the only popup shown when hovering the panel icon.
