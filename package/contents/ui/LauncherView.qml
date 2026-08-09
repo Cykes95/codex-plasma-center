@@ -207,11 +207,24 @@ ColumnLayout {
         Layout.fillWidth: true
     }
 
-    GridLayout {
-        columns: 2
-        columnSpacing: Kirigami.Units.largeSpacing
-        rowSpacing: Kirigami.Units.smallSpacing
+    QQC2.ScrollView {
+        id: controlsScroll
         Layout.fillWidth: true
+        Layout.fillHeight: true
+        Layout.minimumHeight: 0
+        clip: true
+        contentWidth: availableWidth
+
+        ColumnLayout {
+            id: controlsContent
+            width: controlsScroll.availableWidth
+            spacing: Kirigami.Units.smallSpacing
+
+            GridLayout {
+                columns: 2
+                columnSpacing: Kirigami.Units.largeSpacing
+                rowSpacing: Kirigami.Units.smallSpacing
+                Layout.fillWidth: true
 
         QQC2.Label {
             text: i18n("Model")
@@ -331,14 +344,16 @@ ColumnLayout {
             onActivated: view.controller.setPreferredTerminal(
                 String(currentValue || ""))
         }
-    }
+            }
 
-    QQC2.Label {
-        text: i18n("These are official Codex CLI options and do not depend on your shell. Inherit leaves that setting unchanged. If no working folder is selected, the new CLI opens in your home folder.")
-        color: Kirigami.Theme.disabledTextColor
-        font.pointSize: Kirigami.Theme.smallFont.pointSize
-        wrapMode: Text.Wrap
-        Layout.fillWidth: true
+            QQC2.Label {
+                text: i18n("These are official Codex CLI options and do not depend on your shell. Inherit leaves that setting unchanged. If no working folder is selected, the new CLI opens in your home folder.")
+                color: Kirigami.Theme.disabledTextColor
+                font.pointSize: Kirigami.Theme.smallFont.pointSize
+                wrapMode: Text.Wrap
+                Layout.fillWidth: true
+            }
+        }
     }
 
     Kirigami.InlineMessage {

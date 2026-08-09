@@ -17,6 +17,11 @@ import org.kde.plasma.plasmoid
 PlasmoidItem {
     id: root
 
+    // Keep the compact, status-specific tooltip below; suppress Plasma's
+    // generic metadata tooltip, which otherwise appears as a second popup.
+    toolTipMainText: ""
+    toolTipSubText: ""
+
     readonly property string helperUrl: Qt.resolvedUrl("../tools/codex_status.py").toString()
     readonly property string helperPath: decodeURIComponent(helperUrl.replace(/^file:\/\//, ""))
     readonly property string threadsHelperUrl: Qt.resolvedUrl("../tools/codex_threads.py").toString()
@@ -37,7 +42,7 @@ PlasmoidItem {
         ? "../icons/codex-blossom-white.svg"
         : "../icons/codex-blossom-black.svg")
     readonly property string statusCommand: "python3 " + shellQuote(helperPath)
-    readonly property string addonVersion: "0.7.0"
+    readonly property string addonVersion: "0.7.1"
     readonly property int refreshIntervalMinutes: Math.max(1, Math.min(60,
         Number(Plasmoid.configuration.refreshIntervalMinutes || 5)))
     readonly property bool showPercentage: Plasmoid.configuration.showPercentage !== false
@@ -889,9 +894,15 @@ PlasmoidItem {
     fullRepresentation: PlasmaExtras.Representation {
         id: fullView
 
+        readonly property bool shortScreen: Screen.height <= 1200
+        readonly property real requestedPopupHeight: Kirigami.Units.gridUnit
+            * (shortScreen ? 42 : 38)
+        readonly property real availablePopupHeight: Math.max(
+            Kirigami.Units.gridUnit * 24,
+            Screen.availableHeight - Kirigami.Units.largeSpacing * 2)
         readonly property real stablePopupHeight: Math.min(
-            Screen.availableHeight * 0.84,
-            Kirigami.Units.gridUnit * 38)
+            requestedPopupHeight,
+            availablePopupHeight * 0.9)
 
         implicitWidth: Kirigami.Units.gridUnit * 27
         implicitHeight: stablePopupHeight
@@ -1169,13 +1180,8 @@ PlasmoidItem {
                 visible: viewTabs.currentIndex === 1
                 controller: root
                 Layout.fillWidth: true
-                Layout.alignment: Qt.AlignTop
-            }
-
-            Item {
-                visible: viewTabs.currentIndex === 1
                 Layout.fillHeight: true
-                Layout.minimumHeight: Kirigami.Units.smallSpacing
+                Layout.alignment: Qt.AlignTop
             }
 
             ChatsView {

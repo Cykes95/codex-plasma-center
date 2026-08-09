@@ -1,5 +1,5 @@
 DOMAIN := plasma_applet_com.github.codexplasmacenter
-VERSION := 0.7.0
+VERSION := 0.7.1
 PACKAGE := dist/codex-plasma-center-$(VERSION).plasmoid
 
 .PHONY: check translations package clean
