@@ -10,12 +10,12 @@
         "Description": "Check Codex usage and manage saved chats",
         "Description[es]": "Consulta el uso de Codex y gestiona chats guardados",
         "EnabledByDefault": true,
-        "Icon": "applications-development",
+        "Icon": "/icons/codex-blossom-black.svg",
         "Id": "com.github.codexplasmacenter",
         "License": "MIT",
         "Name": "Codex Plasma Center",
         "Name[es]": "Centro de Codex para Plasma",
-    "Version": "0.7.0"
+    "Version": "0.7.1"
     },
     "X-Plasma-API-Minimum-Version": "6.0",
     "X-Plasma-MainScript": "ui/main.qml"

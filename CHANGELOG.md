@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The project uses semantic versioning once a public release is created.
 
+## 0.7.1 - Unreleased
+
+- Suppress Plasma's generic metadata tooltip so the compact status tooltip is
+  the only popup shown when hovering the panel icon.
+- Give short screens a taller, safely capped popup and keep the New chat risk
+  warning and launch button visible while its options scroll independently.
+- Use the packaged Codex Blossom in Plasma's widget explorer and edit mode.
+
 ## 0.7.0 - 2026-08-08
 
 - Detect supported terminal emulators and add an optional persistent selector
